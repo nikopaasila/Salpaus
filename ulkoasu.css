@@ -1,0 +1,24 @@
+body{
+  background-color:black;
+  color:rgb(255, 0, 0);
+}
+a{text-decoration: none
+color:brown
+}
+a:hover{color:brown
+}
+a:active{ color:aqua
+}
+div{ 
+  background-color:grey;
+  opacity: 0.3;
+}
+.otsikko{background-color:blue 
+}
+.alaotsikko{
+  background-color:rgb(148, 16, 16);
+  width:30%;
+  margin:auto;
+  text-align: center;
+}
+
