@@ -40,7 +40,7 @@ while ($row = mysqli_fetch_array($query)) {
 </body>
 </html>
 ```
-#chart.php
+# chart.php
 ```
 <html>
   <head>
