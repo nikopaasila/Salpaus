@@ -1,4 +1,5 @@
 # index.php
+```
 <html>
 <body>
 
@@ -38,3 +39,4 @@ while ($row = mysqli_fetch_array($query)) {
 </table>
 </body>
 </html>
+```
