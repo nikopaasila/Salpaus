@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T07:35:48.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.0" etag="TtNLWKtLm8ZPt2fcG2a1" type="github"><diagram id="ZeEueCuU6LwkQrmq-mca">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-14T07:52:20.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QB5thKsob0syO5G43hUO" version="20.3.0" type="github">
+  <diagram id="ZeEueCuU6LwkQrmq-mca" name="Sivu-1">
+    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o2vmwPyjMg1Z8DOYRv5h-1" value="Käyttäjä" style="swimlane;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="o2vmwPyjMg1Z8DOYRv5h-5" value="Käyttäjätunnus&lt;br&gt;tilitiedot" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o2vmwPyjMg1Z8DOYRv5h-1">
+          <mxGeometry y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o2vmwPyjMg1Z8DOYRv5h-2" value="Verkkokauppa" style="swimlane;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="o2vmwPyjMg1Z8DOYRv5h-6" value="hinta&amp;nbsp;&lt;br&gt;tuote&lt;br&gt;määrä" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o2vmwPyjMg1Z8DOYRv5h-2">
+          <mxGeometry y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o2vmwPyjMg1Z8DOYRv5h-3" value="Ostoskori" style="swimlane;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="o2vmwPyjMg1Z8DOYRv5h-4" value="Käyttäjä id&lt;br&gt;ostos id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o2vmwPyjMg1Z8DOYRv5h-3">
+          <mxGeometry y="40" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o2vmwPyjMg1Z8DOYRv5h-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="o2vmwPyjMg1Z8DOYRv5h-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="290" as="sourcePoint" />
+            <mxPoint x="430" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o2vmwPyjMg1Z8DOYRv5h-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="o2vmwPyjMg1Z8DOYRv5h-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="290" as="sourcePoint" />
+            <mxPoint x="260" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
